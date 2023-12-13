@@ -24,9 +24,10 @@ Changes necessary to get the document to render:
 
 # Rendering & output
 
-Clone this repo, `cd` into it, then run `quarto render` (or `quarto preview` if you've previously rendered). A rendered version will be linked here soon.
+Clone this repo, `cd` into it, then run `quarto render` (or `quarto preview` if you've previously rendered). A rendered version can be seen [here](https://ccb.connect.hms.harvard.edu/osca_intro_qmd/).
 
 # Future steps
 
 * Reincorporate the deleted `book` / `rebook` magic
 * Investigate using the [quarto freeze](https://quarto.org/docs/projects/code-execution.html#freeze) option (sort of like chapter-level caching instead of knitr chunk-level caching) as an alternative way of managing the execution if book/rebook turns out to be non-viable.
+* Utilize fancy quarto features like switchable themes
