@@ -1,0 +1,10 @@
+/.quarto/
+.Rproj.user
+*_cache/
+*_files/
+*.xls
+*.csv.gz
+tenx-2.1.0-pbmc4k/
+OSCA.intro.qmd.Rproj
+_book/
+raw_data/

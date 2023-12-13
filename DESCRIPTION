@@ -1,0 +1,50 @@
+Package: OSCA.intro
+Title: Introduction to OSCA
+Version: 1.9.0
+Date: 2022-11-15
+Authors@R: c( 
+        person('Robert', 'Amezquita', role = 'aut'), 
+        person('Aaron', 'Lun', role = 'aut'), 
+        person('Stephanie', 'Hicks', role = 'aut'), 
+        person('Raphael', 'Gottardo', role = 'aut'),
+        person('Ludwig', 'Geistlinger', role = 'cre', email = "ludwig_geistlinger@hms.harvard.edu") 
+    )
+Description: 
+    Deploys the introduction to the "Orchestrating Single Cell Analysis with Bioconductor" book.
+    This describes how to install R and Bioconductor packages, links out to some resources to learn R,
+    describes how to load datasets into an R session, provides an overview of the SingleCellExperiment class,
+    and performs a "quick start" demonstration for basic single-cell RNA-seq analyses. It is intended for
+    readers with little-to-no computational background who are just getting started with analyses in R.
+Depends: batchelor,
+    BiocFileCache,
+    BiocManager,
+    bluster,
+    DropletTestFiles,
+    DropletUtils,
+    gridExtra,
+    knitr,
+    LoomExperiment,
+    R.utils,
+    readxl,
+    rebook,
+    rmarkdown,
+    rtracklayer,
+    scater,
+    scran,
+    scRNAseq,
+    scuttle,
+    SingleCellExperiment,
+    uwot,
+    zellkonverter
+Suggests: 
+    BiocManager,
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
+License: CC BY 4.0
+URL: https://github.com/OSCA-source/OSCA.intro
+biocViews: 
+    ImmunoOncologyWorkflow,
+    Workflow, 
+    SingleCellWorkflow
+RoxygenNote: 7.1.1

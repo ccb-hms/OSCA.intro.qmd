@@ -1,0 +1,19 @@
+project:
+  type: book
+
+book: 
+  title: "Introduction to Single-Cell Analysis with Bioconductor"
+  chapters:
+    - index.qmd
+    - installation.qmd
+    - learning-r.qmd
+    - getting-datasets.qmd
+    - sce-class.qmd
+    - analysis-overview.qmd
+
+bibliography: ref.bib
+
+format: 
+  html: 
+    theme: cosmo
+
